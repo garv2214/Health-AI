@@ -9,12 +9,12 @@ with open("requirements.txt", "r", encoding="utf-8") as fh:
 setup(
     name="health-ai-module",
     version="1.0.0",
-    author="Your Name",
-    author_email="your.email@example.com",
-    description="AI/ML Module for Decentralized Health Record System - Predictive Analytics & Federated Learning",
+    author="Garv Sharma",
+    author_email="garv6375@gmail.com",
+    description="AI Module for Decentralized Health Record System - Predictive Analytics & Federated Learning",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/health-ai-module",
+    url="https://github.com/garv2214/health-ai-module",
     packages=find_packages(),
     classifiers=[
         "Development Status :: 4 - Beta",
