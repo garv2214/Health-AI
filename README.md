@@ -1,4 +1,4 @@
-# 🏥 Health AI Module for Decentralized Health Records
+# Health AI Module for Decentralized Health Records
 
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -6,34 +6,34 @@
 
 **AI/ML Module for Decentralized Health Record System** - A production-ready, privacy-preserving AI engine that predicts medical emergencies, classifies healthcare data, and enables federated learning without compromising patient privacy.
 
-## 🌟 Features
+## Features
 
-### 🔮 **Predictive Analytics for Emergencies**
+### **Predictive Analytics for Emergencies**
 - Real-time medical emergency prediction using ML models
 - Risk stratification for critical conditions
 - Multi-model ensemble (Random Forest, XGBoost, Neural Networks)
 - Early warning system for deteriorating patient conditions
 
-### 🤖 **Rapid Healthcare Data Classification**
+### **Rapid Healthcare Data Classification**
 - TabPFN-based fast classification of complex health records
 - Automated categorization of medical data
 - Support for structured and tabular healthcare data
 - High accuracy with minimal training data
 
-### 🔐 **Privacy-Preserving Federated Learning**
+### **Privacy-Preserving Federated Learning**
 - Decentralized AI training without data centralization
 - Node clustering and iterative local training
 - Maintains model accuracy while preserving privacy
 - HIPAA/GDPR-compliant architecture
 - Secure aggregation of model updates
 
-### 📡 **AI Agents & Smart Device Integration**
+### **AI Agents & Smart Device Integration**
 - Secure bridge to wearable devices and IoT medical sensors
 - Intelligent AI agents for real-time monitoring
 - RESTful API for seamless integration
 - WebSocket support for live data streaming
 
-## 🏗️ Architecture
+## Architecture
 ┌─────────────────────────────────────────────────────────────┐
 │ Decentralized Health Record System │
 ├─────────────────────────────────────────────────────────────┤
@@ -53,7 +53,7 @@
 └─────────────────────────────────────────────────────────────┘
 
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Installation
 
@@ -115,7 +115,7 @@ trainer.local_training(
 global_model = trainer.aggregate_models()
 ```
 
-## 📦 Module Structure
+##  Module Structure
 health_ai_module/
 ├── predictive_analytics/ # Emergency prediction & risk models
 ├── federated_learning/ # Privacy-preserving distributed training
@@ -124,7 +124,7 @@ health_ai_module/
 ├── utils/ # Privacy tools & preprocessing
 └── tests/ # Comprehensive test suite
 
-## 🔬 Technical Details
+##  Technical Details
 
 ### Models Used
 
@@ -137,12 +137,12 @@ health_ai_module/
 
 ### Privacy Features
 
-- ✅ **Differential Privacy** - Added noise to prevent data reconstruction
-- ✅ **Homomorphic Encryption** - Compute on encrypted data
-- ✅ **Secure Multi-Party Computation** - Collaborative learning without data sharing
-- ✅ **Local Processing** - Data never leaves patient's node
+- **Differential Privacy** - Added noise to prevent data reconstruction
+- **Homomorphic Encryption** - Compute on encrypted data
+- **Secure Multi-Party Computation** - Collaborative learning without data sharing
+- **Local Processing** - Data never leaves patient's node
 
-## 🧪 Testing
+## Testing
 
 ```bash
 # Run all tests
@@ -152,7 +152,7 @@ pytest tests/ -v --cov=health_ai_module
 pytest tests/test_emergency_prediction.py -v
 ```
 
-## 📊 Performance Metrics
+## Performance Metrics
 
 - **Emergency Prediction Accuracy**: 94.2%
 - **False Positive Rate**: < 3%
@@ -160,7 +160,7 @@ pytest tests/test_emergency_prediction.py -v
 - **Data Classification Speed**: 500+ records/second
 - **Privacy Preservation**: 100% (no raw data leaves local node)
 
-## 🔗 Integration with Decentralized Health System
+## Integration with Decentralized Health System
 
 The AI module is designed for seamless integration:
 
@@ -180,7 +180,7 @@ ai_module.connect_to_network(health_chain)
 ai_module.enable_autonomous_monitoring()
 ```
 
-## 📚 Documentation
+## Documentation
 
 Full documentation available at: `docs/`
 
@@ -189,7 +189,7 @@ Full documentation available at: `docs/`
 - Privacy Guarantee Details
 - Integration Guides
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please follow these steps:
 
@@ -199,23 +199,20 @@ Contributions are welcome! Please follow these steps:
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Healthcare data standards from HL7 FHIR
 - Privacy techniques from differential privacy literature
 - Federated learning framework from Flamby
 
-## 👤 Author
+## Author
 
-**Your Name**  
-📧 your.email@example.com  
-🔗 [LinkedIn](https://linkedin.com/in/yourusername)  
-🐙 [GitHub](https://github.com/yourusername)
-
+- Garv Sharma
+- garv6375@gmail.com
+- [LinkedIn](https://linkedin.com/in/garv2214)  
+- [GitHub](https://github.com/garv2214)
 ---
-
-**Built with ❤️ for decentralized healthcare innovation**
